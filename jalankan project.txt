@@ -1,0 +1,3 @@
+kalau mau aplikasi nya mau jalan harus donload expo go di hp
+terus selesai itu di dalam projectnya hrs npm install dl
+hbs tuh br jalankan projectnya
