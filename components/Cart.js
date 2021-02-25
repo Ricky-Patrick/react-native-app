@@ -118,6 +118,26 @@ return (
             
 
         </View>
+{/* layer3 */}
+
+        <View style={styles.deliver}>
+            <View style={styles.delivery}>
+                <Text style={styles.del}>Delivery Services :</Text>
+            </View>
+            <View style={styles.delivery1}>
+                <Text style={styles.del1}> $ 90.00</Text>
+            </View>
+        </View>
+{/* layer4 */}
+        <View style={styles.checkout}>
+            <View style={styles.total}>
+                <Text style={styles.total1}>Total Price</Text>
+                <Text style={styles.total1}>$360.00</Text>
+            </View>
+            <TouchableOpacity style={styles.cekout}>
+                <Text style={styles.cekout1}>CheckOut</Text>
+            </TouchableOpacity>
+        </View>
 
         </View>
 );

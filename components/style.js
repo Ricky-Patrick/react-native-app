@@ -435,11 +435,12 @@ const styles = StyleSheet.create({
         alignItems:'center',
     },
     box :{
-        backgroundColor:'#FBF2CD',
-        justifyContent:'center',
+        backgroundColor:'#FCF2CC',
         alignItems:'center',
         borderRadius:10,
-        marginTop:20
+        marginTop:20,
+        height:340,
+        
     },
     box1 :{
         backgroundColor:'white',
@@ -449,9 +450,6 @@ const styles = StyleSheet.create({
         justifyContent:'space-around',
         borderRadius:15,
         marginTop:20,
-        shadowOffset:{  width: 10,  height: 10,  },
-        shadowColor: 'black',
-        shadowRadius: 2
     },
     tambah :{
         flexDirection:'row',
@@ -526,6 +524,43 @@ const styles = StyleSheet.create({
         fontSize:17,
         fontWeight:'bold',
         color:'#E6312A',
+    },
+    deliver :{
+        marginHorizontal:17,
+        flexDirection:'row',
+        justifyContent:'space-between',
+        marginTop:50
+    },
+    del :{
+        fontSize: height *0.02,
+        color:'black',
+        opacity:0.4
+    },
+    checkout :{
+        flexDirection:'row',
+        justifyContent:'space-between',
+        marginHorizontal:17,
+        marginTop:70
+    },
+    total :{
+        justifyContent:'center',
+        alignItems:'center'
+    },
+    total1 :{
+        fontSize:height * 0.024
+    },
+    cekout :{
+        backgroundColor:'#C1161B',
+        width:150,
+        alignItems:'center',
+        justifyContent:'center',
+        borderRadius:20,
+        height:50
+    },
+    cekout1 :{
+        fontSize:height * 0.03,
+        color:'white',
+        fontWeight:'bold'
     },
 });
 
